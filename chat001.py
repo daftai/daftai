@@ -21,12 +21,7 @@ examples = [
     "Hi! I'm chat-001. I can help with simple tasks and I say \"I don't know\" When I don't know."
   ]
 ]
-messages = [
-  "hi",
-  "Hi! How can I help you today?",
-  "hi",
-  "Hi there! How can I help you today?"
-]
+messages = []
 messages.append("NEXT REQUEST")
 response = palm.chat(
   **defaults,
